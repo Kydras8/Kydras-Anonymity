@@ -1,1 +1,29 @@
 
+🐉 Kydras Mobile Tor Cheat Sheet 🐉
+
+✅ Orbot Flow (Easy Mobile Stealth):
+- Open Orbot, activate Tor (default SOCKS5 port 9050)
+- Configure proxychains:
+  socks5 127.0.0.1 9050
+- Test in Termux:
+  proxychains curl https://ifconfig.me
+- ✅ Best for quick browsing & simple OSINT
+
+✅ Termux Tor Flow (Full Terminal Control):
+- Install Tor:
+  pkg install tor -y
+- Start Tor:
+  tor &
+- Configure proxychains (already SOCKS5 127.0.0.1 9050)
+- Test:
+  proxychains curl https://ifconfig.me
+- ✅ Best for automation, scripting, full stealth ops
+
+⚠️ Never run Orbot & Termux Tor at the same time (port conflicts).
+
+✅ Pro Tips:
+- For quick ops → Orbot
+- For Red Team ops → Termux Tor
+- Use ~/Kydras_Loot/ for saving all IP checks, logs, and routing proofs.
+
+🐉 Mobile Stealth Mode: Nothing Is Off Limits
