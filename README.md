@@ -1,3 +1,11 @@
+<!-- Kydras Repo Header -->
+<p align="center">
+  <strong>Kydras Systems Inc.</strong><br/>
+  <em>Nothing is off limits.</em>
+</p>
+
+---
+
 # 🕶️ Kydras-Anonymity
 
 Part of the **Kydras Offensive Toolkit**, this module focuses on **mobile stealth**, **Tor routing**, and **proxychains configuration** — optimized for Termux and GrapheneOS setups.
@@ -34,3 +42,4 @@ git clone https://github.com/Kydras8/Kydras-Anonymity.git
 cd Kydras-Anonymity/tools
 bash proxychains-orbot-setup.sh
 bash tor-ip-check.sh
+
